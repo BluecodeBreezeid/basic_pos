@@ -13,3 +13,12 @@
  *
  * @link: https://codeigniter4.github.io/CodeIgniter4/
  */
+
+
+function validateLogin() {
+    if (session()->get('isLoggedIn')) {
+        return redirect()->to('dashboard');
+    } else {
+        return redirect()->to(base_url('/'));
+    }
+}

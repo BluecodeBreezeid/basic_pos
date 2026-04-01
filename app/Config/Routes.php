@@ -30,8 +30,24 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
 
+$routes->get('/', 'Auth::login');
+$routes->get('/login', 'Auth::login');
+$routes->post('/login', 'Auth::attempt');
+$routes->get('/logout', 'Auth::logout');
+
+$routes->get('dashboard', 'Dashboard::index');
+
+$routes->get('inventory', 'Inventory::index');
+$routes->get('inventory/create', 'Inventory::create');
+$routes->post('inventory/store', 'Inventory::store');
+$routes->get('inventory/edit/(:num)', 'Inventory::edit/$1');
+$routes->post('inventory/update/(:num)', 'Inventory::update/$1');
+
+$routes->get('sales', 'Sales::index');
+$routes->get('sales/create', 'Sales::create');
+$routes->post('sales/store', 'Sales::store');
 /**
  * --------------------------------------------------------------------
  * Additional Routing
