@@ -1,0 +1,61 @@
+
+# 🧪 Technical Test – POS Application (CodeIgniter 4)
+## 📌 Deskripsi
+
+<!-- Tekan Ctrl + Shift + V untuk melihat -->
+
+Aplikasi ini adalah sistem POS (Point of Sale) sederhana yang memiliki beberapa fitur:
+
+* Login
+* Dashboard laporan penjualan
+* Inventory (manajemen barang)
+* Sales (transaksi penjualan)
+
+Namun, aplikasi ini memiliki beberapa bug yang sengaja dibuat.
+
+---
+
+## 🎯 Tugas Anda
+
+Perbaiki bug yang ada agar aplikasi dapat berjalan dengan benar.
+
+Pastikan:
+
+* Login berfungsi dengan benar
+* Dashboard menampilkan data yang benar
+* Inventory dapat digunakan (tambah & edit)
+* Transaksi berjalan dengan benar
+
+---
+
+## ⚙️ Ketentuan
+
+* Waktu pengerjaan: **-+90 menit**
+* Anda bebas mengubah kode yang ada
+* Tidak perlu menambahkan fitur baru
+* Fokus pada perbaikan bug dan kestabilan sistem
+
+---
+
+## 🧪 Bonus (Opsional)
+
+Jika masih ada waktu:
+
+* Tambahkan validasi yang diperlukan
+* Perbaiki potensi bug lain yang Anda temukan
+
+---
+
+## 📦 Output
+
+* Aplikasi dapat berjalan dengan normal
+* Tidak ada error saat digunakan
+
+---
+
+## 💡 Catatan
+
+- Beberapa bug mungkin tidak menyebabkan error, tetapi menghasilkan output yang tidak sesuai.
+- Tuliskan secara singkat bug yang Anda temukan dan bagaimana Anda memperbaikinya (tidak perlu panjang).
+
+Semangat 🚀
